@@ -1,0 +1,3 @@
+{"question":"What benefits are covered under the health plan?","role":"employee","filters":{"department":"hr"},"expected_source_files":["Northwind_Health_Plus_Benefits_Details.pdf"],"expected_answer_contains":["benefits"]}
+{"question":"Can an employee access HR benefits information?","role":"employee","filters":{"department":"hr"},"expected_source_files":["Northwind_Standard_Benefits_Details.pdf"],"expected_answer_contains":["benefits"]}
+{"question":"What documents mention employee health benefits?","role":"employee","filters":{},"expected_source_files":["Northwind_Health_Plus_Benefits_Details.pdf"],"expected_answer_contains":["health"]}

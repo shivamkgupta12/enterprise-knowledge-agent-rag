@@ -1,0 +1,4 @@
+filename,title,department,doc_type,sensitivity,allowed_roles
+Contoso_Employee_Handbook.pdf,Contoso Employee Handbook,hr,policy,internal,"employee,hr,admin"
+Northwind_Health_Plus_Benefits_Details.pdf,Northwind Health Plus Benefits,hr,benefits,internal,"employee,hr,admin"
+Northwind_Standard_Benefits_Details.pdf,Northwind Standard Benefits,hr,benefits,internal,"employee,hr,admin"

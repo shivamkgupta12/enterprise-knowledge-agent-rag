@@ -29,7 +29,9 @@ jobs:
           pip install ruff pytest
 
       - name: Lint
-        run: ruff check app
+        run: |
+          ruff check app
+          ruff format --check app
 
       - name: Import check
         run: python -m compileall app

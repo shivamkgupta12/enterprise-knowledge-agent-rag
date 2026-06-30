@@ -1,0 +1,21 @@
+question,status,answer_contains_expected_terms,source_recall,citation_count,latency_ms,returned_sources,answer
+What benefits are covered under the health plan?,passed,True,1.0,5,23104,"['Northwind_Health_Plus_Benefits_Details.pdf', 'Northwind_Health_Plus_Benefits_Details.pdf', 'Northwind_Health_Plus_Benefits_Details.pdf', 'Northwind_Health_Plus_Benefits_Details.pdf', 'Northwind_Health_Plus_Benefits_Details.pdf']","If you mean the Northwind Health Plus plan, it covers the following benefits:
+
+- Medical services (including ambulatory services and hospitalization) [S4][S9].  
+- Vision services [S4].  
+- Dental services [S4].  
+- Prescription drugs (coverage applies; copay/deductible rules vary by drug) [S4][S1].  
+- Mental health and substance‑abuse services [S4][S9].  
+- Preventive care (covered at 100% with no copayment, deductible, or coinsurance) [S1][S9].  
+- Emergency services (covered in‑network and out‑of‑network; cost‑sharing may apply) [S4][S1].  
+- Some additional services such as acupuncture are listed as covered services [S4].
+
+Note: Coverage is subject to plan cost‑sharing (deductible, coinsurance, out‑of‑pocket maximum) and plan rules, and some exclusions/limits may apply; check the plan documents for details [S1][S5][S6]."
+Can an employee access HR benefits information?,passed,True,1.0,5,17615,"['Northwind_Standard_Benefits_Details.pdf', 'Northwind_Standard_Benefits_Details.pdf', 'Northwind_Health_Plus_Benefits_Details.pdf', 'Northwind_Standard_Benefits_Details.pdf', 'Northwind_Standard_Benefits_Details.pdf']","Yes. Employees have the right to access benefits and plan information: ERISA requires employers to provide a Summary Plan Description and an annual report, so plan documents must be made available to employees [S6]. The plan includes a ""Notice of Availability of Plan Documents"" that tells employees where to find those plan documents and other notices (e.g., Privacy Practices, Benefit and Payment Parameters) [S10]. Under HIPAA, employees also have the right to inspect and copy their protected health information and to request amendments or restrictions, so health records related to benefits are accessible under those rules [S1][S2]. If employees have questions about coverage or cannot find documents, they are instructed to contact the Human Resources Department or their employer for more information [S9]."
+What documents mention employee health benefits?,passed,True,1.0,7,23894,"['Northwind_Health_Plus_Benefits_Details.pdf', 'Northwind_Standard_Benefits_Details.pdf', 'Benefit_Options.pdf', 'Northwind_Standard_Benefits_Details.pdf', 'Northwind_Standard_Benefits_Details.pdf', 'Northwind_Standard_Benefits_Details.pdf', 'Northwind_Standard_Benefits_Details.pdf']","Documents that mention employee health benefits:
+
+- Benefit_Options.pdf (Benefit_Options) — “We are excited to offer our employees two comprehensive health insurance plans…” [S4].  
+- Northwind_Standard_Benefits_Details.pdf (Northwind Standard) — multiple pages reference employees and employee benefits (e.g., “The Northwind Standard plan is a contract between the employee and Northwind Health” [S2]; tips and preventive-care information for employees [S5]; prior-authorization guidance for Contoso’s employees [S6]; legal notices and employee rights under ERISA/COBRA/HIPAA/ACA [S7]; notices for employees [S8]) [S2][S5][S6][S7][S8].  
+- Northwind_Health_Plus_Benefits_Details.pdf (Northwind Health Plus) — includes employee-focused guidance (e.g., “Tips for Employees” and instructions about informing Northwind Health Plus of other coverage) [S10].  
+
+If you’d like, I can list the specific pages or extract the exact employee-related passages from any of these documents [S4][S2][S5][S6][S7][S8][S10]."

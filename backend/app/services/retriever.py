@@ -22,10 +22,7 @@ def build_acl_filter(user_roles: list[str]) -> str:
     normalized_roles = {role.strip().lower() for role in user_roles if role.strip()}
     normalized_roles.add("all")
 
-    role_clauses = [
-        f"r eq '{escape_odata(role)}'"
-        for role in sorted(normalized_roles)
-    ]
+    role_clauses = [f"r eq '{escape_odata(role)}'" for role in sorted(normalized_roles)]
 
     return f"allowed_roles/any(r: {' or '.join(role_clauses)})"
 
@@ -119,7 +116,9 @@ class HybridRetriever:
         output: list[dict] = []
 
         for result in results:
-            score = result.get("@search.reranker_score") or result.get("@search.score") or 0
+            score = (
+                result.get("@search.reranker_score") or result.get("@search.score") or 0
+            )
 
             output.append(
                 {

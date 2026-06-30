@@ -84,10 +84,7 @@ def get_feedback_summary() -> dict:
         ORDER BY rating
         """
     )
-    distribution = {
-        str(row[0]): row[1]
-        for row in cursor.fetchall()
-    }
+    distribution = {str(row[0]): row[1] for row in cursor.fetchall()}
 
     connection.close()
 

@@ -38,11 +38,7 @@ def parse_roles(header_value: str | None) -> list[str]:
     if not header_value:
         return ["employee"]
 
-    return [
-        role.strip().lower()
-        for role in header_value.split(",")
-        if role.strip()
-    ]
+    return [role.strip().lower() for role in header_value.split(",") if role.strip()]
 
 
 @app.get("/health")

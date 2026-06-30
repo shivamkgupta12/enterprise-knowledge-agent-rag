@@ -25,10 +25,7 @@ def parse_roles(value: str) -> list[str]:
 
 
 def batch_list(items: list, batch_size: int) -> list[list]:
-    return [
-        items[i : i + batch_size]
-        for i in range(0, len(items), batch_size)
-    ]
+    return [items[i : i + batch_size] for i in range(0, len(items), batch_size)]
 
 
 def load_metadata(metadata_path: Path) -> dict[str, dict]:

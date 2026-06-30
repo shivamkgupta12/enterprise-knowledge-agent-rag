@@ -2,7 +2,15 @@ from app.services.llm import AzureLLM
 
 
 ALLOWED_DEPARTMENTS = {"hr", "finance", "legal", "product", "engineering", "general"}
-ALLOWED_DOC_TYPES = {"policy", "benefits", "contract", "invoice", "faq", "meeting_notes", "document"}
+ALLOWED_DOC_TYPES = {
+    "policy",
+    "benefits",
+    "contract",
+    "invoice",
+    "faq",
+    "meeting_notes",
+    "document",
+}
 
 
 class QueryPlanner:

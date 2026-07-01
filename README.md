@@ -87,9 +87,6 @@ The system supports document ingestion, query rewriting, multi-step retrieval, r
 
 ## System Architecture
 
-The architecture diagram is available in the project documentation.
-
-Add your generated image here:
 
 ![Architecture Diagram](docs/images/architecture.png)
 

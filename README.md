@@ -91,9 +91,7 @@ The architecture diagram is available in the project documentation.
 
 Add your generated image here:
 
-```md
 ![Architecture Diagram](docs/images/architecture.png)
-```
 
 ---
 
@@ -648,21 +646,21 @@ Frontend workflow checks:
 
 ### Chat Interface
 
-```md
+
 ![Chat Interface](docs/images/chat-interface.png)
-```
+
 
 ### Citation Panel
 
-```md
+
 ![Citation Panel](docs/images/citation-panel.png)
-```
+
 
 ### Retrieval Debug Mode
 
-```md
+
 ![Retrieval Debug Mode](docs/images/retrieval-debug.png)
-```
+
 
 
 ---
